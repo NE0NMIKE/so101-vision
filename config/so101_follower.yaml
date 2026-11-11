@@ -1,0 +1,10 @@
+# SO-101 follower arm settings, shared by every LeRobot command.
+# Use from the project root:  lerobot-calibrate --config_path=config/so101_follower.yaml
+robot:
+  type: so101_follower
+  # macOS serial device of the controller board (found with a before/after port scan).
+  port: /dev/cu.usbmodem5B790149231
+  # Names the calibration file: calibration/so101_follower.json
+  id: so101_follower
+  # Relative to the folder you run commands from, so always run them from the project root.
+  calibration_dir: calibration

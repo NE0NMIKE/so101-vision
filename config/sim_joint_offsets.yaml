@@ -1,0 +1,9 @@
+# Written by scripts/table_touch_calibration.py fit --write. sim_deg = real_deg + offset_deg
+calibration_fingerprint: 3101b6020042
+offsets_deg:
+  shoulder_pan: 0.0
+  shoulder_lift: -4.18
+  elbow_flex: -9.02
+  wrist_flex: 5.31
+  wrist_roll: 0.0
+notes: 9 table-touch poses, RMS gap 33.4 -> 3.8 mm
