@@ -1,0 +1,7 @@
+# Tested with Python 3.14 on Ubuntu (lerobot 0.7.0, torch 2.15.0, mujoco 4.0.1)
+lerobot[feetech]>=0.7.0
+mujoco>=4.0
+numpy
+scipy
+matplotlib
+pyyaml
